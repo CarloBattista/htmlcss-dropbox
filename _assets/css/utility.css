@@ -54,8 +54,16 @@
     display: flex;
 }
 
+.a-start{
+    align-items: flex-start;
+}
+
 .a-center{
     align-items: center;
+}
+
+.a-end{
+    align-items: flex-end;
 }
 
 .j-start{
