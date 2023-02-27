@@ -354,3 +354,47 @@ main{
     font-size: 13px;
     font-weight: 400;
 }
+
+/* Partner */
+.partner{
+    padding: 40px 0;
+}
+
+.box_image{
+    width: 55%;
+}
+
+.box_image img{
+    width: 100%;
+}
+
+.box_info_partner{
+    width: 40%;
+}
+
+.heading_partner{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.description_partner{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.btn_stroke{
+    background-color: transparent;
+    border: 1px solid #aaa;
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn_stroke:hover{
+    border: 1px solid #000;
+    color: #000;
+}
