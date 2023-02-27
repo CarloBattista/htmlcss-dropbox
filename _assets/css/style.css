@@ -581,3 +581,46 @@ main{
 .footer{
     padding: 60px 0;
 }
+
+.footer_heading{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.footer_link{
+    margin-bottom: 5px;
+}
+
+.footer_link:last-child{
+    margin-bottom: 0;
+}
+
+.footer_link a{
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer_link a:hover{
+    text-decoration: underline;
+}
+
+.lineDiv{
+    background-color: #aaa;
+    width: 10%;
+    height: 1px;
+    margin: 50px 0;
+}
+
+.language_selector_container{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.language{
+    margin: 0 5px;
+}
