@@ -58,3 +58,31 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
+
+.container_buttons{
+    margin-left: 20px;
+}
+
+.btnLink{
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.btnLink:last-child{margin-right: 0;}
+
+.btn_white:hover{
+    background-color: #f2eee8;
+}
+
+.btn_blue{
+    background-color: #0061FF;
+    color: #fff;
+}
+
+.btn_blue:hover{
+    background-color: #3A7AFF;
+}
