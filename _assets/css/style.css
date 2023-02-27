@@ -452,3 +452,69 @@ main{
 .link_clients:hover{
     text-decoration: underline;
 }
+
+/* DesignIT Image */
+.testimony{
+    width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+}
+
+.leftBox_image{
+    height: 100%;
+    background-color: yellow;
+}
+
+.box_image_container{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_image_container img{
+    width: 50%;
+    filter: invert(100%);
+}
+
+.box_image_container.border{
+    border: 10px solid #D1E9CD;
+}
+
+.centerBox_image{
+    width: 100%;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.info_container{
+    padding: 40px;
+}
+
+.box_logo{
+    width: 200px;
+}
+
+.box_logo img{
+    width: 100%;
+}
+
+.hrLine{
+    background-color: #aaa;
+    width: 20%;
+    height: 1px;
+    margin: 30px 0;
+}
+
+.testimony_description{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.people_testimony{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 40px;
+}
