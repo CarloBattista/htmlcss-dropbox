@@ -432,3 +432,23 @@ main{
     font-size: 12px;
     font-weight: 400;
 }
+
+
+/* Banner Dropbox */
+.bannerDropbox{
+    padding: 100px 0;
+}
+
+.bannerDropbox .container_title{
+    width: 50%;
+}
+
+.link_clients{
+    color: #0061FF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.link_clients:hover{
+    text-decoration: underline;
+}
