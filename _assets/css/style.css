@@ -198,6 +198,8 @@ main{
 
 .card{
     width: calc((100% / 3) - 2%);
+    min-height: 1000px;
+    height: 100%;
     border: 1px solid #d5d5d5;
 }
 
@@ -214,4 +216,116 @@ main{
     font-size: 14px;
     font-weight: 500;
     margin-left: 5px;
+}
+
+.name_plan {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.planName{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.price{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.type_payment{
+    color: #aaa;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.info_plan{
+    height: 250px;
+}
+
+.section_link {
+    width: 100%;
+}
+
+.row_info{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.container_icon{
+    display: flex;
+    align-items: center;
+}
+
+.row_info:last-child{
+    margin-bottom: 0;
+}
+
+.row_info .fa-solid{
+    font-size: 14px;
+}
+
+.info_tech{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.section_link{
+    width: 100%;
+}
+
+.btn_large{
+    width: 100%;
+}
+
+.btn_large.changeBtnFont{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container_buyNow{
+    margin-top: 15px;
+}
+
+.buy_now{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.buy_now a{
+    color: #0061FF;
+}
+
+.buy_now a:hover{
+    text-decoration: underline;
+}
+
+.lineDivisor{
+    background-color: #aaa;
+    width: 22%;
+    height: 1px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.highlights_plan{
+    margin-bottom: 20px;
+}
+
+.highlights_plan .row_info .fa-check{
+    color: #0061FF;
+}
+
+.row_heading{
+    margin-bottom: 15px;
+}
+
+.hed_row{
+    font-size: 14px;
+    font-weight: 700;
 }
