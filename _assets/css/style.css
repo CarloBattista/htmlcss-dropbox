@@ -276,14 +276,14 @@ main{
     width: 100%;
 }
 
-.btn_large{
-    width: 100%;
-}
-
 .btn_large.changeBtnFont{
     font-size: 12px;
     font-weight: 400;
     text-align: center;
+}
+
+.w100{
+    width: 100%;
 }
 
 .container_buyNow{
@@ -574,4 +574,10 @@ main{
 .answer{
     font-size: 15px;
     font-weight: 400;
+}
+
+/* Footer */
+
+.footer{
+    padding: 60px 0;
 }
