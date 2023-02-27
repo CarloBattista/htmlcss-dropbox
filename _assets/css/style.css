@@ -105,19 +105,113 @@ main{
     padding: 20px;
 }
 
-.container_title_heading{
-    margin-bottom: 20px;
-}
-
 .heading_title{
     font-size: 61px;
     line-height: 72px;
 }
 
+.left_info{
+    width: 67%;
+}
+
+.container_description{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn_large{
+    background-color: transparent;
+    color: #000;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn_large.notPadding{
+    padding: 10px 0;
+}
+
+.btn_large_white:hover{
+    opacity: .5;
+}
+
+.btn_large_blue{
+    background-color: #0061FF;
+    color: #fff;
+}
+
+.btn_large_blue:hover{
+    background-color: #3A7AFF;
+}
+
+.fa-arrow-down{
+    color: #000;
+    font-size: 40px;
+    cursor: pointer;
+}
+
 .rightBox_img{
-    width: 700px;
+    position: absolute;
+    right: 20%;
+    width: 37%;
 }
 
 .boxImg{
     width: 100%;
+}
+
+/* Plans */
+.plans{
+    padding: 100px 0;
+}
+
+.title_section{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.radioinput{
+    margin-right: 40px;
+}
+
+.radioinput input{
+    width: 14px;
+    height: 14px;
+}
+
+.billing_text{
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 5px;
+    cursor: default;
+}
+
+/* Card */
+
+.card{
+    width: calc((100% / 3) - 2%);
+    border: 1px solid #d5d5d5;
+}
+
+.heading_card{
+    height: 40px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.heading_card .fa-solid{
+    font-size: 14px;
+}
+
+.for_plan{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
 }
