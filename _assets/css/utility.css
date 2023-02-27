@@ -1,0 +1,81 @@
+/* bg color */
+
+.bg-white{
+    background-color: #fff;
+}
+
+.bg-black{
+    background-color: #000;
+}
+
+.bg-grey{
+    background-color: #aaa;
+}
+
+.bg-blue{
+    background-color: #0061FF;
+}
+
+.bg-lightBlue{
+    background-color: #3A7AFF;
+}
+
+.bg-light{
+    background-color: #B4D0E7;
+}
+
+.bg-wine{
+    background-color: #61082B;
+}
+
+/* color */
+
+.color-white{
+    color: #fff;
+}
+
+.color-black{
+    color: #000;
+}
+
+.color-grey{
+    color: #aaa;
+}
+
+.color-wine{
+    color: #61082B;
+}
+
+/* position */
+
+.d-flex{
+    display: flex;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.j-start{
+    justify-content: flex-start;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.j-end{
+    justify-content: flex-end;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+
+.d-column{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
