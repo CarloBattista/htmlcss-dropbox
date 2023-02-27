@@ -615,7 +615,7 @@ main{
 }
 
 .language_selector_container{
-    color: #fff;
+    color: #aaa;
     font-size: 13px;
     font-weight: 400;
     cursor: pointer;
@@ -623,4 +623,12 @@ main{
 
 .language{
     margin: 0 5px;
+}
+
+.fa-caret-up{
+    transition: transform 200ms ease;
+}
+
+.language_selector_container:hover .fa-caret-up{
+    transform: rotate(180deg);
 }
