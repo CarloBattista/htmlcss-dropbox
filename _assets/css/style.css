@@ -518,3 +518,14 @@ main{
     font-weight: 400;
     margin-top: 40px;
 }
+
+/* Banner Dropbox */
+.btn_large_white_wh{
+    background-color: #fff;
+    color: #000;
+}
+
+.btn_large_white_wh:hover{
+    background-color: #0061FF;
+    color: #fff;
+}
