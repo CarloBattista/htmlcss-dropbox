@@ -81,3 +81,9 @@
 .flex-wrap{
     flex-wrap: wrap;
 }
+
+/* margin */
+.margin-70{
+    width: 70%;
+    margin: 0 auto;
+}

@@ -86,3 +86,30 @@ body {
 .btn_blue:hover{
     background-color: #3A7AFF;
 }
+
+/* Main */
+
+main{
+    position: relative;
+    z-index: 10;
+    top: 60px;
+    left: 0;
+    width: 100%;
+}
+
+/* hero */
+
+.hero{
+    width: 100%;
+    min-height: 420px;
+    padding: 20px;
+}
+
+.container_title_heading{
+    margin-bottom: 20px;
+}
+
+.heading_title{
+    font-size: 61px;
+    line-height: 72px;
+}
