@@ -1,5 +1,9 @@
-/* bg color */
+/* debug */
+.debug{
+    border: 1px solid red;
+}
 
+/* bg color */
 .bg-white{
     background-color: #fff;
 }
@@ -29,7 +33,6 @@
 }
 
 /* color */
-
 .color-white{
     color: #fff;
 }
@@ -47,7 +50,6 @@
 }
 
 /* position */
-
 .d-flex{
     display: flex;
 }
