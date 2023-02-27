@@ -529,3 +529,49 @@ main{
     background-color: #0061FF;
     color: #fff;
 }
+
+/* Frequently Questions */
+
+.container_dpd_menu{
+    width: 100%;
+}
+
+.row_question{
+    height: auto;
+    padding: 30px 0;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+
+.row_question:nth-child(1){
+    border-top: 1px solid #000;
+}
+
+.question{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.fa-angle-down{
+    font-size: 15px;
+    font-weight: 400;
+    transition: transform 200ms ease;
+}
+
+.row_question:hover .fa-angle-down{
+    transform: rotate(180deg);
+}
+
+.answer_container{
+    display: none;
+    margin-top: 20px;
+}
+
+.row_question:hover .answer_container{
+    display: block;
+}
+
+.answer{
+    font-size: 15px;
+    font-weight: 400;
+}
