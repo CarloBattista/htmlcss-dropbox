@@ -113,3 +113,11 @@ main{
     font-size: 61px;
     line-height: 72px;
 }
+
+.rightBox_img{
+    width: 700px;
+}
+
+.boxImg{
+    width: 100%;
+}
